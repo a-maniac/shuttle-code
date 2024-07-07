@@ -25,7 +25,7 @@ public class IntroToSpringBootApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 //		apple.eatApple();
 //		apple2.eatApple();
-		//implement log rather than Sysout println
+		//implement log rather than System.out.println
 		System.out.println(cakeBaker.bakeCake());
 	}
 
